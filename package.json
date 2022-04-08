@@ -1,0 +1,18 @@
+{
+  "name": "webstore",
+  "version": "1.0.0",
+  "description": "Web store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jgismylife@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.3",
+    "googleapis": "^100.0.0",
+    "mercadopago": "^1.5.12"
+  }
+}
